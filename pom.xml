@@ -31,8 +31,7 @@
 					<deployables>
 						<deployable>
 							<groupId>${project.groupId}</groupId>
-							<!--artifactId>${wtw.artifact}</artifactId -->
-							<artifactId>whatever-weather-web</artifactId>
+							<artifactId>${wtw.artifact}</artifactId>
 							<type>war</type>
 							<properties>
 								<context>wtw</context>
@@ -43,15 +42,14 @@
 			</plugin>
 		</plugins>
 	</build>
-	<dependencies>
+	<!--dependencies>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<!--artifactId>${wtw.artifact}</artifactId -->
 			<artifactId>whatever-weather-web</artifactId>
 			<version>${project.version}</version>
 			<type>war</type>
 		</dependency>
-	</dependencies>
+	</dependencies-->
 	<properties>
 		<target.version>RELEASE</target.version>
 		<tomcat.manager.url>http://localhost:8080/manager</tomcat.manager.url>
