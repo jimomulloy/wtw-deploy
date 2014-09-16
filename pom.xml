@@ -34,7 +34,7 @@
 							<artifactId>${wtw.artifact}</artifactId>
 							<type>war</type>
 							<properties>
-								<context>wtw</context>
+								<context>${wtw.context}</context>
 							</properties>
 						</deployable>
 					</deployables>
