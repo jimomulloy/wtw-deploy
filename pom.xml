@@ -52,7 +52,7 @@
 	</dependencies>
 	<properties>
 		<target.version>RELEASE</target.version>
-		<tomcat.manager.url>http://localhost:8080/manager</tomcat.manager.url>
+		<tomcat.manager.url>http://ec2-54-72-213-202.eu-west-1.compute.amazonaws.com:8080/manager</tomcat.manager.url>
 		<tomcat.username>deployer</tomcat.username>
 		<tomcat.password>deployer</tomcat.password>
 	</properties>
