@@ -31,10 +31,10 @@
 					<deployables>
 						<deployable>
 							<groupId>${project.groupId}</groupId>
-							<artifactId>${wtw.artifact}</artifactId>
+							<artifactId>wtw-base-rs</artifactId>
 							<type>war</type>
 							<properties>
-								<context>${wtw.context}</context>
+								<context>wtwbase</context>
 							</properties>
 						</deployable>
 					</deployables>
@@ -42,14 +42,14 @@
 			</plugin>
 		</plugins>
 	</build>
-	<!--dependencies>
+	<dependencies>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>whatever-weather-web</artifactId>
+			<artifactId>wtw-base-rs</artifactId>
 			<version>${project.version}</version>
 			<type>war</type>
 		</dependency>
-	</dependencies-->
+	</dependencies>
 	<properties>
 		<target.version>RELEASE</target.version>
 		<tomcat.manager.url>http://localhost:8080/manager</tomcat.manager.url>
