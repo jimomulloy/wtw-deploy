@@ -25,7 +25,7 @@
 						<properties>
 							<cargo.remote.username>${tomcat.username}</cargo.remote.username>
 							<cargo.remote.password>${tomcat.password}</cargo.remote.password>
-							<cargo.tomcat.manager.url>${tomcat.manager.url}</cargo.tomcat.manager.url>
+							<cargo.tomcat.manager.url>http://ec2-54-72-213-202.eu-west-1.compute.amazonaws.com:8080/manager</cargo.tomcat.manager.url>
 						</properties>
 					</configuration>
 					<deployables>
